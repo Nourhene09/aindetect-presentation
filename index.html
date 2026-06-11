@@ -720,13 +720,49 @@
     <div class="blob blob-1"></div><div class="blob blob-2"></div>
     <div class="badge anim-item d1"><span class="badge-dot"></span> 06 — Backend</div>
     <div class="s-title anim-item d2">Backend & Base de Données</div>
-    <div class="info-grid anim-item d3" style="flex:1;align-content:start;">
-      <div class="info-card"><div class="info-ico"><i class="fas fa-shield-halved"></i></div><div><div class="info-label">Firebase Auth</div><div class="info-value">Authentification sécurisée médecin / admin — gestion des rôles et sessions</div></div></div>
-      <div class="info-card"><div class="info-ico"><i class="fas fa-database"></i></div><div><div class="info-label">Cloud Firestore</div><div class="info-value">Base de données NoSQL temps réel — patients, examens, prédictions</div></div></div>
-      <div class="info-card"><div class="info-ico"><i class="fas fa-box-archive"></i></div><div><div class="info-label">Firebase Storage</div><div class="info-value">Stockage sécurisé des images fundus au format optimisé</div></div></div>
-      <div class="info-card"><div class="info-ico"><i class="fas fa-plug"></i></div><div><div class="info-label">Modele local (IA)</div><div class="info-value">Réception image → Prédiction EfficientNetV2-S → probabilités</div></div></div>
+    <div class="anim-item d3" style="flex:1;display:grid;grid-template-columns:1fr 1fr;gap:18px;align-content:center;position:relative;z-index:2;">
+
+      <div style="border-radius:20px;padding:28px 24px;border:1px solid rgba(14,165,233,.15);background:rgba(14,165,233,.05);display:flex;align-items:center;gap:20px;transition:all .3s;" onmouseover="this.style.borderColor='rgba(14,165,233,.4)'" onmouseout="this.style.borderColor='rgba(14,165,233,.15)'">
+        <div style="width:56px;height:56px;border-radius:16px;background:rgba(14,165,233,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <i class="fas fa-shield-halved" style="font-size:24px;color:var(--azure);"></i>
+        </div>
+        <div>
+          <div style="font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--azure);margin-bottom:6px;">Firebase Auth</div>
+          <div style="font-size:14px;color:var(--frost);line-height:1.6;">Authentification sécurisée médecin / admin — gestion des rôles et sessions</div>
+        </div>
+      </div>
+
+      <div style="border-radius:20px;padding:28px 24px;border:1px solid rgba(14,165,233,.15);background:rgba(14,165,233,.05);display:flex;align-items:center;gap:20px;transition:all .3s;" onmouseover="this.style.borderColor='rgba(14,165,233,.4)'" onmouseout="this.style.borderColor='rgba(14,165,233,.15)'">
+        <div style="width:56px;height:56px;border-radius:16px;background:rgba(14,165,233,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <i class="fas fa-database" style="font-size:24px;color:var(--azure);"></i>
+        </div>
+        <div>
+          <div style="font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--azure);margin-bottom:6px;">Cloud Firestore</div>
+          <div style="font-size:14px;color:var(--frost);line-height:1.6;">Base de données NoSQL temps réel — patients, examens, prédictions</div>
+        </div>
+      </div>
+
+      <div style="border-radius:20px;padding:28px 24px;border:1px solid rgba(14,165,233,.15);background:rgba(14,165,233,.05);display:flex;align-items:center;gap:20px;transition:all .3s;" onmouseover="this.style.borderColor='rgba(14,165,233,.4)'" onmouseout="this.style.borderColor='rgba(14,165,233,.15)'">
+        <div style="width:56px;height:56px;border-radius:16px;background:rgba(14,165,233,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <i class="fas fa-box-archive" style="font-size:24px;color:var(--azure);"></i>
+        </div>
+        <div>
+          <div style="font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--azure);margin-bottom:6px;">Firebase Storage</div>
+          <div style="font-size:14px;color:var(--frost);line-height:1.6;">Stockage sécurisé des images fundus au format optimisé</div>
+        </div>
+      </div>
+
+      <div style="border-radius:20px;padding:28px 24px;border:1px solid rgba(14,165,233,.15);background:rgba(14,165,233,.05);display:flex;align-items:center;gap:20px;transition:all .3s;" onmouseover="this.style.borderColor='rgba(14,165,233,.4)'" onmouseout="this.style.borderColor='rgba(14,165,233,.15)'">
+        <div style="width:56px;height:56px;border-radius:16px;background:rgba(14,165,233,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;">
+          <i class="fas fa-plug" style="font-size:24px;color:var(--azure);"></i>
+        </div>
+        <div>
+          <div style="font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--azure);margin-bottom:6px;">Modèle Local (IA)</div>
+          <div style="font-size:14px;color:var(--frost);line-height:1.6;">Réception image → Prédiction EfficientNetV2-S → probabilités</div>
+        </div>
+      </div>
+
     </div>
-    
   </div>
 </section>
 
