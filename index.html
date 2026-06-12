@@ -433,7 +433,6 @@
     <div style="position:relative;z-index:2;flex:1;">
       <div style="font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--sky);margin-bottom:12px;">Enjeux identifiés</div>
       <div class="anim-item d4" style="display:flex;flex-direction:column;gap:8px;">
-        <div class="proto-row"><i class="fas fa-user-doctor" style="color:var(--sky);"></i><div class="proto-text">Manque de spécialistes disponibles dans les zones rurales</div></div>
         <div class="proto-row"><i class="fas fa-triangle-exclamation" style="color:var(--sky);"></i><div class="proto-text">Retards de diagnostic pouvant mener à une cécité irréversible</div></div>
         <div class="proto-row"><i class="fas fa-server" style="color:var(--sky);"></i><div class="proto-text">Solutions IA existantes trop lourdes pour un déploiement terrain</div></div>
       </div>
@@ -511,7 +510,6 @@
         <tbody>
           <tr><td>Déploiement</td><td>Matériel dédié / PC uniquement</td><td class="hl">📱 Smartphone</td></tr>
           <tr><td>Pathologies</td><td>1 à 2 maladies par solution</td><td class="hl">🎯 4 à 6 classes</td></tr>
-          <tr><td>Accessibilité</td><td>Zones urbaines uniquement</td><td class="hl">🌍 Zones reculées</td></tr>
           <tr><td>Coût</td><td>Très élevé (matériel + licences)</td><td class="hl">💰 SaaS abordable</td></tr>
           <tr><td>Interface</td><td>Complexe / spécialisée</td><td class="hl">✨ Intuitive Flutter</td></tr>
         </tbody>
@@ -602,84 +600,7 @@
         <div class="arch-item">Augmentation de données</div>
       </div>
     </div>
-    <div class="chip-row anim-item d4" style="margin-top:20px;gap:12px;">
-      <button class="uml-btn" onclick="goToByLabel('usecase')">
-        <i class="fas fa-circle-nodes"></i> Cas d'Utilisation
-      </button>
-      <button class="uml-btn" onclick="goToByLabel('class')">
-        <i class="fas fa-diagram-project"></i> Diagramme de Classes
-      </button>
-      <button class="uml-btn" onclick="goToByLabel('sequence')">
-        <i class="fas fa-timeline"></i> Diagramme de Séquence
-      </button>
-    </div>
-  </div>
-</section>
 
-<!-- ═══ S11 — UML : CAS D'UTILISATION ═══ -->
-<section class="slide" data-label="usecase">
-  <div class="slide-card card-light" style="padding:36px 48px;">
-    <div class="blob blob-1"></div><div class="blob blob-2"></div>
-    <div class="badge anim-item d1"><span class="badge-dot"></span> 04 — UML</div>
-    <div class="s-title anim-item d2">Diagramme de Cas d'Utilisation</div>
-    <div class="uml-slide-content anim-item d3">
-      <img src="https://i.postimg.cc/tTBNY20Z/diagramme-de-cas-Utilisation.png" alt="Diagramme de Cas d'Utilisation"
-           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-      <div class="uml-placeholder" style="display:none;">
-        <i class="fas fa-circle-nodes"></i>
-        <span>usecase.png introuvable — placez le fichier dans le dossier <code>images/</code></span>
-      </div>
-    </div>
-    <div class="anim-item d4" style="margin-top:12px;">
-      <button class="uml-btn-back" onclick="goToByLabel('architecture')">
-        <i class="fas fa-arrow-left"></i> Retour Architecture
-      </button>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ S12 — UML : DIAGRAMME DE CLASSES ═══ -->
-<section class="slide" data-label="class">
-  <div class="slide-card card-light" style="padding:36px 48px;">
-    <div class="blob blob-1"></div><div class="blob blob-2"></div>
-    <div class="badge anim-item d1"><span class="badge-dot"></span> 04 — UML</div>
-    <div class="s-title anim-item d2">Diagramme de Classes</div>
-    <div class="uml-slide-content anim-item d3">
-      <img src="https://i.postimg.cc/vB0tc3Rc/diagramme-de-classe.png" alt="Diagramme de Classes"
-      
-           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-      <div class="uml-placeholder" style="display:none;">
-        <i class="fas fa-diagram-project"></i>
-        <span>class.png introuvable — placez le fichier dans le dossier <code>images/</code></span>
-      </div>
-    </div>
-    <div class="anim-item d4" style="margin-top:12px;">
-      <button class="uml-btn-back" onclick="goToByLabel('architecture')">
-        <i class="fas fa-arrow-left"></i> Retour Architecture
-      </button>
-    </div>
-  </div>
-</section>
-
-<!-- ═══ S13 — UML : DIAGRAMME DE SÉQUENCE ═══ -->
-<section class="slide" data-label="sequence">
-  <div class="slide-card card-light" style="padding:36px 48px;">
-    <div class="blob blob-1"></div><div class="blob blob-2"></div>
-    <div class="badge anim-item d1"><span class="badge-dot"></span> 04 — UML</div>
-    <div class="s-title anim-item d2">Diagramme de Séquence</div>
-    <div class="uml-slide-content anim-item d3">
-      <img src="https://i.postimg.cc/ZRbLbXQR/diagramme-de-sequence.png" alt="Diagramme de Séquence"
-           onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
-      <div class="uml-placeholder" style="display:none;">
-        <i class="fas fa-timeline"></i>
-        <span>sequence.png introuvable — placez le fichier dans le dossier <code>images/</code></span>
-      </div>
-    </div>
-    <div class="anim-item d4" style="margin-top:12px;">
-      <button class="uml-btn-back" onclick="goToByLabel('architecture')">
-        <i class="fas fa-arrow-left"></i> Retour Architecture
-      </button>
-    </div>
   </div>
 </section>
 
@@ -690,17 +611,7 @@
     <div class="badge anim-item d1"><span class="badge-dot"></span> 05 — Partie Matérielle</div>
     <div class="s-title anim-item d2">Environnement de développement</div>
     <div class="anim-item d3" style="position:relative;z-index:2;flex:1;display:flex;flex-direction:column;gap:14px;">
-      <div style="border-radius:16px;padding:20px;border:1px solid rgba(186,230,253,.5);background:white;">
-        <div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--sky);margin-bottom:12px;"><i class="fas fa-microchip" style="margin-right:6px;"></i>Matériel</div>
-        <div style="display:flex;flex-wrap:wrap;gap:8px;">
-          <span class="hw-spec"><i class="fas fa-display"></i> GPU AMD RX 6700 XT — 12 Go VRAM</span>
-          <span class="hw-spec"><i class="fas fa-memory"></i> RAM 32 Go</span>
-          <span class="hw-spec"><i class="fas fa-hard-drive"></i> SSD 1To NVMe</span>
-        </div>
-        <div style="margin-top:14px;padding:14px;border-radius:12px;background:rgba(14,165,233,.04);border:1px solid rgba(14,165,233,.12);font-size:13px;color:var(--sky);">
-          <i class="fas fa-bolt" style="margin-right:8px;"></i><strong>Pourquoi un GPU dédié ?</strong> Le GPU RX 6700 XT avec 12 Go VRAM permet d'entraîner EfficientNetV2-S sur 4 212 images, batch size 32, en 30 époques dans un temps acceptable.
-        </div>
-      </div>
+      
       <div style="border-radius:16px;padding:20px;border:1px solid rgba(186,230,253,.5);background:white;">
         <div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--sky);margin-bottom:12px;"><i class="fas fa-laptop-code" style="margin-right:6px;"></i>Environnement logiciel</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px;">
@@ -786,6 +697,108 @@
   </div>
 </section>
 
+<!-- ═══ S-CNN — PRINCIPES DES CNN ═══ -->
+<section class="slide">
+  <div class="slide-card card-dark">
+    <div class="blob blob-1"></div><div class="blob blob-2"></div><div class="blob blob-3"></div>
+    <div class="badge anim-item d1"><span class="badge-dot"></span> 08 — Intelligence Artificielle</div>
+    <div class="s-title anim-item d2">Réseaux de Neurones Convolutifs (CNN)</div>
+    <div class="s-subtitle anim-item d2">Fondements théoriques</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;flex:1;align-content:start;position:relative;z-index:2;" class="anim-item d3">
+
+      <div style="border-radius:16px;padding:18px;background:rgba(14,165,233,.06);border:1px solid rgba(14,165,233,.14);display:flex;gap:14px;align-items:flex-start;">
+        <div style="width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--sky),var(--cyan));display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fas fa-border-all" style="color:#fff;font-size:15px;"></i></div>
+        <div>
+          <div style="font-size:12px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--azure);margin-bottom:5px;">Convolution</div>
+          <div style="font-size:12.5px;color:var(--frost);line-height:1.6;">Noyaux glissants extraient des <strong style="color:var(--aqua);">features locales</strong> : contours, textures, formes — indépendamment de leur position dans l'image.</div>
+        </div>
+      </div>
+
+      <div style="border-radius:16px;padding:18px;background:rgba(14,165,233,.06);border:1px solid rgba(14,165,233,.14);display:flex;gap:14px;align-items:flex-start;">
+        <div style="width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--sky),var(--cyan));display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fas fa-compress-arrows-alt" style="color:#fff;font-size:15px;"></i></div>
+        <div>
+          <div style="font-size:12px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--azure);margin-bottom:5px;">Pooling</div>
+          <div style="font-size:12.5px;color:var(--frost);line-height:1.6;"><strong style="color:var(--aqua);">Réduction spatiale</strong> de la carte de features, diminuant le coût de calcul tout en conservant l'information essentielle.</div>
+        </div>
+      </div>
+
+      <div style="border-radius:16px;padding:18px;background:rgba(14,165,233,.06);border:1px solid rgba(14,165,233,.14);display:flex;gap:14px;align-items:flex-start;">
+        <div style="width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--sky),var(--cyan));display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fas fa-bolt-lightning" style="color:#fff;font-size:15px;"></i></div>
+        <div>
+          <div style="font-size:12px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--azure);margin-bottom:5px;">Activation ReLU</div>
+          <div style="font-size:12.5px;color:var(--frost);line-height:1.6;">Introduit la <strong style="color:var(--aqua);">non-linéarité</strong> : max(0, x). Permet au réseau d'apprendre des relations complexes sans saturation du gradient.</div>
+        </div>
+      </div>
+
+      <div style="border-radius:16px;padding:18px;background:rgba(14,165,233,.06);border:1px solid rgba(14,165,233,.14);display:flex;gap:14px;align-items:flex-start;">
+        <div style="width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--sky),var(--cyan));display:flex;align-items:center;justify-content:center;flex-shrink:0;"><i class="fas fa-layer-group" style="color:#fff;font-size:15px;"></i></div>
+        <div>
+          <div style="font-size:12px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;color:var(--azure);margin-bottom:5px;">Hiérarchie de features</div>
+          <div style="font-size:12.5px;color:var(--frost);line-height:1.6;">Couches profondes : de <strong style="color:var(--aqua);">pixels → bords → formes → structures sémantiques</strong>. Plus on est profond, plus les features sont abstraites.</div>
+        </div>
+      </div>
+
+    </div>
+    <div class="note-box anim-item d4" style="margin-top:12px;"><i class="fas fa-eye"></i> Pour les images médicales, les CNN détectent automatiquement les anomalies rétiniennes que l'œil humain peut manquer.</div>
+  </div>
+</section>
+
+<!-- ═══ S-PRETRAINED — MODÈLES PRÉ-ENTRAÎNÉS ═══ -->
+<section class="slide">
+  <div class="slide-card card-light">
+    <div class="blob blob-1"></div><div class="blob blob-2"></div>
+    <div class="badge anim-item d1"><span class="badge-dot"></span> 08 — Intelligence Artificielle</div>
+    <div class="s-title anim-item d2">Transfer Learning & Modèles Pré-entraînés</div>
+    <div class="s-subtitle anim-item d2">Approche utilisée dans AinDetect</div>
+
+    <div style="display:flex;gap:16px;flex:1;position:relative;z-index:2;" class="anim-item d3">
+
+      <!-- Left: concept -->
+      <div style="flex:1.1;display:flex;flex-direction:column;gap:10px;">
+        <div style="border-radius:14px;padding:16px 18px;background:white;border:1px solid rgba(186,230,253,.5);">
+          <div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--sky);margin-bottom:10px;"><i class="fas fa-database" style="margin-right:6px;"></i>ImageNet — Base du Transfer Learning</div>
+          <div style="font-size:12.5px;color:var(--text-mid);line-height:1.6;">Base de données de <strong style="color:var(--sky);">1,2 million d'images</strong>, 1 000 classes. Les modèles pré-entraînés sur ImageNet ont déjà appris à détecter des features génériques (contours, textures, formes).</div>
+        </div>
+        <div style="border-radius:14px;padding:16px 18px;background:white;border:1px solid rgba(186,230,253,.5);">
+          <div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--sky);margin-bottom:10px;"><i class="fas fa-snowflake" style="margin-right:6px;"></i>Fine-tuning — Adaptation au domaine médical</div>
+          <div style="display:flex;flex-direction:column;gap:6px;">
+            <div style="font-size:12px;color:var(--text-mid);display:flex;gap:8px;"><span style="color:var(--sky);font-weight:700;">1.</span> Couches de base <strong>gelées</strong> → features ImageNet conservées</div>
+            <div style="font-size:12px;color:var(--text-mid);display:flex;gap:8px;"><span style="color:var(--sky);font-weight:700;">2.</span> Nouvelle tête Dense <strong>entraînée</strong> → adaptation aux 4 classes oculaires</div>
+            <div style="font-size:12px;color:var(--text-mid);display:flex;gap:8px;"><span style="color:var(--sky);font-weight:700;">3.</span> Learning rate faible (5e-5) → ne casse pas les poids pré-entraînés</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: model comparison chips -->
+      <div style="flex:.9;display:flex;flex-direction:column;gap:10px;">
+        <div style="font-size:10px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--sky);margin-bottom:2px;">Modèles comparés dans AinDetect</div>
+
+        <div style="border-radius:12px;padding:12px 16px;background:white;border:1px solid rgba(186,230,253,.5);display:flex;align-items:center;justify-content:space-between;">
+          <div style="font-size:13px;font-weight:700;color:var(--text-dark);">EfficientNetV2-S</div>
+          <div style="font-size:11px;color:var(--sky);font-weight:600;">Compact · Précis · Mobile</div>
+        </div>
+        <div style="border-radius:12px;padding:12px 16px;background:white;border:1px solid rgba(186,230,253,.5);display:flex;align-items:center;justify-content:space-between;">
+          <div style="font-size:13px;font-weight:700;color:var(--text-dark);">DenseNet121</div>
+          <div style="font-size:11px;color:var(--sky);font-weight:600;">Dense connections · Robuste</div>
+        </div>
+        <div style="border-radius:12px;padding:12px 16px;background:white;border:1px solid rgba(186,230,253,.5);display:flex;align-items:center;justify-content:space-between;">
+          <div style="font-size:13px;font-weight:700;color:var(--text-dark);">MobileNetV2</div>
+          <div style="font-size:11px;color:var(--sky);font-weight:600;">Très léger · Dépôt rapide</div>
+        </div>
+        <div style="border-radius:12px;padding:12px 16px;background:white;border:1px solid rgba(186,230,253,.5);display:flex;align-items:center;justify-content:space-between;">
+          <div style="font-size:13px;font-weight:700;color:var(--text-dark);">ConvNeXt-Tiny</div>
+          <div style="font-size:11px;color:var(--sky);font-weight:600;">Architecture moderne</div>
+        </div>
+
+        <div style="border-radius:12px;padding:12px 16px;background:rgba(14,165,233,.06);border:1px solid rgba(14,165,233,.18);display:flex;align-items:center;gap:10px;margin-top:4px;">
+          <i class="fas fa-circle-check" style="color:var(--sky);font-size:18px;"></i>
+          <div style="font-size:12px;color:var(--sky);font-weight:600;">Choix final : EfficientNetV2-S<br><span style="font-weight:400;color:var(--text-mid);">Meilleur ratio précision / légèreté / vitesse</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ═══ S17 — IA : MODÈLE ═══ -->
 <section class="slide">
   <div class="slide-card card-dark">
@@ -800,17 +813,16 @@
       </div>
       <div style="flex:1;display:flex;flex-direction:column;gap:8px;">
         <div style="font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:var(--azure);margin-bottom:4px;">Justification du choix</div>
-        <div class="stat-card" style="padding:14px;gap:4px;"><div class="stat-icon" style="margin:0;"><i class="fas fa-rocket"></i></div><div class="stat-label" style="font-size:12.5px;">Rapide à entraîner vs ResNet-152 ou ViT</div></div>
+        <div class="stat-card" style="padding:14px;gap:4px;"><div class="stat-icon" style="margin:0;"><i class="fas fa-rocket"></i></div><div class="stat-label" style="font-size:12.5px;">Rapide à entraîner vs DenseNet121 ou ViT</div></div>
         <div class="stat-card" style="padding:14px;gap:4px;"><div class="stat-icon" style="margin:0;"><i class="fas fa-bullseye"></i></div><div class="stat-label" style="font-size:12.5px;">Précision comparable aux meilleurs modèles</div></div>
         <div class="stat-card" style="padding:14px;gap:4px;"><div class="stat-icon" style="margin:0;"><i class="fas fa-mobile-screen-button"></i></div><div class="stat-label" style="font-size:12.5px;">Légèreté adaptée au déploiement mobile</div></div>
       </div>
     </div>
     <div class="chip-row anim-item d4">
       <div class="chip model-chip winner"><i class="fas fa-check"></i> EfficientNetV2-S ✓</div>
-      <div class="chip model-chip">ResNet50V2</div>
-      <div class="chip model-chip">InceptionV3</div>
+      <div class="chip model-chip">DenseNet121</div>
       <div class="chip model-chip">MobileNetV2</div>
-      <div class="chip model-chip">VGG16</div>
+      <div class="chip model-chip">ConvNeXt-Tiny</div>
     </div>
   </div>
 </section>
@@ -856,20 +868,66 @@
   <div class="slide-card card-dark">
     <div class="blob blob-1"></div><div class="blob blob-2"></div>
     <div class="badge anim-item d1"><span class="badge-dot"></span> 09 — Tests & Validation</div>
-    <div class="s-title anim-item d2">Comparaison des modèles</div>
+    <div class="s-title anim-item d2">Comparaison des modèles — Métriques complètes</div>
     <div class="anim-item d3" style="flex:1;position:relative;z-index:2;overflow:auto;">
-      <table class="data-table">
-        <thead><tr><th>Modèle</th><th>F1-Score</th><th>Temps d'inférence</th></tr></thead>
-        <tbody>
-          <tr><td>VGG16</td><td>0,87</td><td>18 ms/img</td></tr>
-          <tr><td>MobileNetV2</td><td>0,89</td><td>8 ms/img ⚡</td></tr>
-          <tr><td>InceptionV3</td><td>0,90</td><td>25 ms/img</td></tr>
-          <tr><td>ResNet50V2</td><td>0,92</td><td>12 ms/img</td></tr>
-          <tr class="hl-row"><td><strong>EfficientNetV2-S ✓</strong></td><td><strong>0,9474</strong></td><td><strong>12 ms/img</strong></td></tr>
-        </tbody>
+      <table class="data-table" style="font-size:12px;">
+  <thead>
+    <tr>
+      <th>Modèle</th>
+      <th style="color:#FBBF24;">Train Acc.</th>
+      <th style="color:#F59E0B;">Valid Acc.</th>
+      <th style="color:#38BDF8;">Test Acc.</th>
+      <th style="color:#22D3EE;">Précision</th>
+      <th style="color:#67E8F9;">Rappel</th>
+      <th style="color:#A5F3FC;">F1-Score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ConvNeXt-Tiny</td>
+      <td>88,79%</td>
+      <td>83,05%</td>
+      <td>89,07%</td>
+      <td>89,79%</td>
+      <td>89,01%</td>
+      <td>89,05%</td>
+    </tr>
+    <tr>
+      <td>MobileNetV2</td>
+      <td>95,50 %</td>
+      <td>93,54 %</td>
+      <td>92,16%</td>
+      <td>92,41%</td>
+      <td>92,12%</td>
+      <td>92,10%</td>
+    </tr>
+    <tr>
+      <td>DenseNet121 <br><small style="color:#ef4444;">(Overfitting)</small></td>
+      <td>99,91%</td>
+      <td>92,36%</td>
+      <td>95,72%</td>
+      <td>95,85%</td>
+      <td>95,74%</td>
+      <td>95,73%</td>
+    </tr>
+    <tr class="hl-row">
+      <td><strong>EfficientNetV2-S ✓ (retenu)</strong></td>
+      <td><strong>96,06%</strong></td>
+      <td><strong>93,79%</strong></td>
+      <td><strong>94,77%</strong></td>
+      <td><strong>94,75%</strong></td>
+      <td><strong>94,74%</strong></td>
+      <td><strong>94,74%</strong></td>
+    </tr>
+  </tbody>
+
       </table>
+      <div style="margin-top:10px;padding:10px 14px;border-radius:10px;background:rgba(14,165,233,.05);border:1px solid rgba(14,165,233,.12);font-size:11.5px;color:var(--azure);position:relative;z-index:2;">
+        <i class="fas fa-info-circle" style="margin-right:6px;"></i>
+        <strong>Pourquoi EfficientNetV2-S ?</strong> Bien que DenseNet121 atteigne 95,72% d'accuracy, L'EfficientNetV2-S a été sélectionné car il surpasse le DenseNet121 sur deux critères majeurs : l'absence de surapprentissage (gap de généralisation minimal) et l'efficience computationnelle, deux piliers indispensables pour faire tourner le système de détection de manière fluide sur un téléphone Android.
+      </div>
     </div>
-    <div class="chip-row anim-item d4" style="margin-top:14px;">
+    <div class="chip-row anim-item d4" style="margin-top:10px;">
       <div class="chip"><i class="fas fa-check" style="color:#10B981;"></i> Authentification</div>
       <div class="chip"><i class="fas fa-check" style="color:#10B981;"></i> Capture image</div>
       <div class="chip"><i class="fas fa-check" style="color:#10B981;"></i> Pipeline IA</div>
@@ -886,9 +944,9 @@
     <div class="badge anim-item d1"><span class="badge-dot"></span> 09 — Résultats</div>
     <div class="s-title anim-item d2">Performances du système</div>
     <div class="big-stats anim-item d3">
-      <div class="big-stat"><div class="big-stat-num">94,77%</div><div class="big-stat-label">Précision globale — Dataset 1</div></div>
+      <div class="big-stat"><div class="big-stat-num">94,75%</div><div class="big-stat-label">Précision globale — Dataset 1</div></div>
       <div class="big-stat"><div class="big-stat-num">94,74%</div><div class="big-stat-label">F1-Score moyen — Dataset 1</div></div>
-      <div class="big-stat"><div class="big-stat-num">90,40%</div><div class="big-stat-label">Précision globale — Dataset 2</div></div>
+      <div class="big-stat"><div class="big-stat-num">94,77%</div><div class="big-stat-label">Test Accuracy globale — Dataset 1</div></div>
     </div>
     <div class="anim-item d4" style="position:relative;z-index:2;flex:1;overflow:auto;">
       <table class="perf-table">
@@ -928,7 +986,7 @@
         display:flex;
         justify-content:center;
         align-items:center;
-        padding-top:20px;
+        padding-top:10px;
       "
     >
 
@@ -938,7 +996,7 @@
         style="
           width:100%;
           max-width:1250px;
-          max-height:550px;
+          max-height:480px;
           object-fit:contain;
           border-radius:20px;
           box-shadow:0 20px 50px rgba(0,0,0,.35);
@@ -1039,7 +1097,7 @@
         <div class="tl3-item">Augmenter les datasets (objectif : 20 000+ images)</div>
         <div class="tl3-item">Tester Vision Transformers (ViT) + modèles hybrides CNN+Transformer</div>
         <div class="tl3-item">Intégrer Grad-CAM pour l'explicabilité des décisions IA,</div>
-        !--Intégration de Grad-CAM pour générer des cartes de chaleur visuelles, permettant aux cliniciens de comprendre et de valider les zones de la rétine ayant motivé le diagnostic de l'IA.--!
+        <!--Intégration de Grad-CAM pour générer des cartes de chaleur visuelles, permettant aux cliniciens de comprendre et de valider les zones de la rétine ayant motivé le diagnostic de l'IA.--!>
       </div>
       <div class="tl3-col">
         <div class="tl3-header"><div class="tl3-dot" style="background:var(--aqua);box-shadow:0 0 8px rgba(103,232,249,.4);"></div><div class="tl3-period">Long terme</div></div>
